@@ -1,7 +1,7 @@
 import numpy as np
 from gensim.models import KeyedVectors
 
-w2vembedding = KeyedVectors.load('embedding.vec')
+w2vembedding = KeyedVectors.load_word2vec_format('embedding.vec')
 
 
 error_words = []
